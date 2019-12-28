@@ -1,5 +1,0 @@
-baseURL = "http://flyblog.tech/"
-languageCode = "zh-cn"
-title = "我的博客"
-#theme = "ananke"
-theme = "contrast-hugo"
