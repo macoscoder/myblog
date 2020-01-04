@@ -26,7 +26,13 @@ $ sudo smbpasswd -a username
 $ sudo nano /etc/samba/smb.conf
 ```
 
-找到 `[homes]` 下面的 `read only = no` 改为 `read only = yes`
+找到 `[homes]` 修改：
+
+```
+read only = no
+create mask = 0644      # rw-r--r--
+directory mask = 0755   # rwxr-xr-x
+```
 
 ## 重启
 
