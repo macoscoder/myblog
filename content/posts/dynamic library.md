@@ -116,6 +116,7 @@ foo
 * /usr/local/lib 非标准库安装目录
 * /lib/x86_64-linux-gnu 64位库
 * /usr/lib/x86_64-linux-gnu 64位库
+* /usr/local/lib/x86_64-linux-gnu 64位库
 
 ## dynamic linker/loader
 
